@@ -269,6 +269,15 @@ a:hover {
   color: #1a6faf;
 }
 
+.content-section p.research-abstract {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.7;
+  margin-top: 10px;
+  border-left: 3px solid #ddd;
+  padding-left: 16px;
+}
+
 /* ===== PROJECT CARDS ===== */
 .project-grid {
   display: grid;
