@@ -457,7 +457,7 @@ a:hover {
   }
 
   .news-date {
-    flex: none;
+    flex: 0 0 auto;
   }
 
   .news-subbullets {
