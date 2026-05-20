@@ -453,7 +453,11 @@ a:hover {
 
   .news-list li {
     flex-direction: column;
-    gap: 4px;
+    gap: 2px;
+  }
+
+  .news-date {
+    flex: none;
   }
 
   .news-subbullets {
