@@ -74,6 +74,15 @@ a:hover {
   border-bottom-color: #333;
 }
 
+.nav-hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #222;
+}
+
 /* ===== HERO ===== */
 .hero {
   display: flex;
@@ -391,10 +400,29 @@ a:hover {
 @media (max-width: 768px) {
   .navbar {
     padding: 0 20px;
+    flex-wrap: wrap;
+  }
+
+  .nav-hamburger {
+    display: block;
   }
 
   .nav-links {
-    gap: 16px;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    border-top: 1px solid #eee;
+    padding: 8px 0;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li a {
+    display: block;
+    padding: 10px 4px;
   }
 
   .hero {

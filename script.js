@@ -24,6 +24,14 @@ function toggleProject(card) {
   card.classList.toggle('open');
 }
 
+function toggleNav() {
+  document.getElementById('nav-links').classList.toggle('open');
+}
+
+function closeNav() {
+  document.getElementById('nav-links').classList.remove('open');
+}
+
 // Graceful fallback if profile photo is missing
 const img = document.getElementById('profile-img');
 if (img) {

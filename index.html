@@ -22,12 +22,13 @@
   <!-- NAV -->
   <nav class="navbar">
     <div class="nav-name">Rohan Khetan</div>
-    <ul class="nav-links">
-      <li><a href="#home" class="active">Home</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+    <button class="nav-hamburger" onclick="toggleNav()" aria-label="Toggle menu">&#9776;</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="active" onclick="closeNav()">Home</a></li>
+      <li><a href="#research" onclick="closeNav()">Research</a></li>
+      <li><a href="#publications" onclick="closeNav()">Publications</a></li>
+      <li><a href="#projects" onclick="closeNav()">Projects</a></li>
+      <li><a href="#contact" onclick="closeNav()">Contact</a></li>
     </ul>
   </nav>
 
