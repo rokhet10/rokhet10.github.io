@@ -424,4 +424,12 @@ a:hover {
     flex-direction: column;
     gap: 4px;
   }
+
+  .news-subbullets {
+    margin-left: 0;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
 }
