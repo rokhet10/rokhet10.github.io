@@ -194,6 +194,19 @@ a:hover {
   padding: 0 64px;
 }
 
+.hero-site-link {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.95rem;
+  color: #1a6faf;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero-site-link:hover {
+  text-decoration: underline;
+}
+
 /* ===== NEWS ===== */
 .news-section {
   max-width: 1200px;
