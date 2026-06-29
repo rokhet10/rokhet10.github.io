@@ -257,6 +257,11 @@ a:hover {
   flex: 1;
 }
 
+.news-highlight {
+  color: #2a7a4b;
+  font-weight: 500;
+}
+
 /* ===== CONTENT SECTIONS (Research, Publications) ===== */
 .content-section {
   max-width: 1200px;
