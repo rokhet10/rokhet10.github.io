@@ -254,6 +254,7 @@ a:hover {
 
 .news-text {
   color: #333;
+  flex: 1;
 }
 
 /* ===== CONTENT SECTIONS (Research, Publications) ===== */
