@@ -147,7 +147,7 @@ a:hover {
 .social-icons {
   display: flex;
   gap: 12px;
-  margin-top: 8px;
+  margin-top: 20px;
 }
 
 .icon-link {
