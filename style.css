@@ -306,6 +306,25 @@ a:hover {
   padding-left: 16px;
 }
 
+.publication-photo {
+  margin: 24px 0 0;
+  max-width: 480px;
+}
+
+.publication-photo img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+
+.publication-photo figcaption {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+}
+
 /* ===== PROJECT CARDS ===== */
 .project-grid {
   display: grid;
