@@ -15,7 +15,7 @@ body {
   font-size: 18px;
   line-height: 1.75;
   color: #222;
-  background: #fff;
+  background: #e9f0fa;
 }
 
 a {
@@ -34,10 +34,11 @@ a:hover {
   justify-content: space-between;
   padding: 0 72px;
   height: 70px;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #c8d7ec;
   position: sticky;
   top: 0;
-  background: #fff;
+  background: #f5f8fd;
+  box-shadow: 0 2px 8px rgba(26, 60, 110, 0.08);
   z-index: 100;
   transition: background 0.3s;
 }
@@ -181,7 +182,7 @@ a:hover {
 
 .hero-right p {
   margin-bottom: 24px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #333;
 }
 
@@ -454,7 +455,7 @@ a:hover {
     gap: 0;
     border-top: 1px solid #eee;
     padding: 8px 0 16px;
-    background: #fff;
+    background: #e9f0fa;
   }
 
   .nav-links.open {
